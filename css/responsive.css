@@ -1,0 +1,73 @@
+@media screen and (max-width: 1024px) {
+
+.manu_bar .nav li a {padding: 15px 10px;}
+.social_icons a {width: 26px;}
+
+}
+@media screen and (max-width: 991px) {
+        p{text-align: justify;}
+        .manu_bar .nav li a {padding: 15px 9px;}
+        .nav > li > a { padding: 10px 6px; }
+        .single_item {margin-bottom: 15px;}
+
+        .newsletter_form form {width: 100%}
+        .single_part{margin-bottom: 15px;}
+        .product{margin-bottom: 15px;}
+
+        .social_icons { margin-top: 8px;}
+        footer .footer_logo img{width: 60%;}
+        .single_footer_widget{padding-bottom: 0px;}
+        .instagram{margin-top: 10px;}
+    
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .address-section,.address-section .social-list{text-align: center;float: none;}
+    .address-section ul li{padding: 10px 0;}
+    /*.manu_bar{background-color: transparent;}*/
+    .logo{padding: 0px;}
+    .logo img{width: 200px;}
+
+    .navbar-toggle{margin-top: -10px;}
+       .manu_bar .navbar{    width: 100%;}
+        .navbar-collapse{background: rgba(0,0,0,0.5);  margin-top: 14px;}
+        .navbar-header{ 
+                     position: absolute;
+                     top: -35px;
+                     right: 0;
+                     z-index: 9;}
+        .manu_bar .nav li a,.manu_bar .nav li .fa{color: #fff;padding: 5px 10px;}
+        .manu_bar .nav>li>a:focus, .manu_bar .nav>li>a:hover,.manu_bar .nav .open>a, .manu_bar nav .open>a:focus, .manu_bar .nav .open>a:hover{
+            background: #666; 
+            }
+        .manu_bar .nav>li>a:focus::after, .manu_bar .nav>li>a:hover::after,.manu_bar .nav .open>a::after,
+        .manu_bar nav .open>a:focus::after, .manu_bar .nav .open>a:hover::after{
+                        background: transparent;
+                        }
+             .slider{height: auto;}
+            .slider_cnt {left: 10%;top: 10%;}
+            .slider_cnt h1 {font-size: 35px;line-height: 40px;}
+            .btn_default,.slider-btn .btn_default{font-size: 14px;padding: 15px 25px;}
+            .about-image{text-align: center;}
+            .about-image img {width: 80%;float: none;}
+            .section_title h3{font-size: 26px;line-height: 27px;}
+            .product_img{text-align: center;}
+            .product_img img {width: 50%;float: none;text-align: center;}
+            .newsletter_content h3{font-size: 26px;line-height: 30px;}
+            .s1,.s2{float: none;text-align: center;}
+            footer .footer_logo img {width: 200px;}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .dots{display: none;}
+  .about-area,.course_area,.details_area,.latest_area,.online_library{padding: 30px 0;}
+  .about-area{margin-top: 0;}
+  .slider_cnt p{width: 90%;}
+  .single_footer_widget h3{font-size: 20px;}
+
+
